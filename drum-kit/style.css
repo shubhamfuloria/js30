@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("./img/bg_image.jpg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    border: 4px yellow solid;
+    border-radius: 20px;
+    padding: 1rem 1.4rem;
+    font-size: 2rem;
+    color: rgb(229, 255, 0);
+    font-weight: bolder;
+    transition: 0.4s all ease;
+}
+
+.active {
+    transform: scale(1.4);
+    background: rgb(0, 0, 0);
+    color: white;
+}
