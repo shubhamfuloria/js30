@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">CSS Variable change using <span>JS</span></h1>
+    </header>
+    <div class="container">
+      <div class="menu">
+        <label for="spacing" class="input-label">Spacing :</label>
+        <input type="range" min="10" max="200" id="spacing-input" data-sizing=
+        'px' name = 'spacing'/>
+        <label for="blur" class="input-label">Blur :</label>
+        <input type="range" min="0" max="30" id="blur-input"
+        data-sizing='px' name = 'blur' value = "0"/>
+        <label for="color" class="input-label"> </label>
+        <input type="color" id="color" data-sizing="" name = 'color'/>
+      </div>
+      <div class="image-container">
+        <img src="images/nature.jpg" class="image" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

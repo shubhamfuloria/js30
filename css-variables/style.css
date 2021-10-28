@@ -1,0 +1,30 @@
+:root {
+    --spacing: 10px;
+    --blur: 5px;
+    --color: red;
+}
+
+h1{
+    text-align: center;
+}
+span{
+    color: var(--color);
+}
+
+.image-container{
+    padding: var(--spacing);
+    background-color: var(--color);
+    margin-top: 1rem;
+}
+
+.image{ 
+    width: 600px;
+    display: block;
+    margin: auto;
+    filter: blur(var(--blur));
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
